@@ -6,6 +6,7 @@
 
 body {
   font-family: 'Nunito Sans', sans-serif;
+  color: #33475b;
 }
 
 li {
@@ -14,10 +15,125 @@ li {
 
 a {
   text-decoration: none;
+  color: #33475b;
 }
-
 
 .container {
   margin: 0px auto;
-  width: 1200px;
+  width: 75%;
+}
+
+.orange-button {
+  padding: 10px;
+  background: #fe775a;
+  color: #fff;
+  border-radius: 5px;
+  border: 0px;
+  font-weight: bold;
+}
+
+.orange-button:hover {
+  background: #ff927b;
+}
+
+.white-button {
+  padding: 10px;
+  background: #fff;
+  color: #fe775a;
+  border-radius: 5px;
+  border: 1px #fe775a solid;
+  font-weight: bold;
+}
+
+/* HEADER */
+
+/* Header Top */
+
+.header-top {
+  background: #f4f9fd;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-bottom: 2px #899397 solid;
+}
+
+.header-top::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.header-top-left {
+  float: left;
+  padding:12px 0px;
+}
+
+.language-bar li {
+  display: inline-block;
+  padding-right: 20px;
+}
+
+.language-bar li:last-child {
+  border-left: 2px #899397 solid;
+  padding-left: 20px;
+}
+
+.header-top-right {
+  float:right;
+}
+
+.right-search-bar ul {
+  line-height: 45px;
+}
+
+.right-search-bar li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.right-search-bar li i {
+  color:#00a4bd;
+}
+
+/* Header Bottom */
+
+.header-bottom {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.header-bottom::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.header-bottom-left {
+  float:left;
+}
+
+.header-bottom-right {
+  float:right;
+}
+
+.main-menu li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.main-menu li {
+  font-weight: bold;
+}
+
+/* MAIN */
+
+/* Jumbotron */
+
+/* Coloured Row */
+
+.coloured-row {
+  height:95px;
+  background: #afebe4;
+  width:100%;
+  border-top: 2px #33475b solid;
+  border-bottom: 2px #33475b solid;
 }
