@@ -144,7 +144,20 @@ div.part-cust p.little-text {
   background-position: right;
   background-repeat: no-repeat;
   width: 100%;
-  height: 600px;
+  height: 695px;
+  position:relative;
+}
+
+.jumbotron::before {
+  content:'';
+  position:absolute;
+  bottom:0;
+  left:0;
+  width:100%;
+  height:80px;
+  background:#bce9e4;
+  border-top: 3px solid #37465a;
+  border-bottom: 3px solid #37465a;
 }
 
 .jumbotron::after{
@@ -182,7 +195,7 @@ div.jumbotron p.little-text {
 
 /* Coloured Row */
 
-.coloured-row {
+/* .coloured-row {
   position: relative;
   top: -36px;
   height:95px;
@@ -190,7 +203,7 @@ div.jumbotron p.little-text {
   width:100%;
   border-top: 3px #33475b solid;
   border-bottom: 3px #33475b solid;
-}
+} */
 
 /* Mission */
 
@@ -201,7 +214,7 @@ div.jumbotron p.little-text {
 }
 
 .mission {
-  margin-top: -36px;
+  /* margin-top: -36px; */
   text-align: center;
   padding-top: 45px;
   padding-bottom: 45px;
